@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - HealthWise Medical</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-top bg-success text-white py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-phone me-2"></i>
+                        <span>+1 (770) 575-0768</span>
+                        <span class="mx-3">|</span>
+                        <i class="fas fa-envelope me-2"></i>
+                        <span>info@healthwisemeds.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <span class="me-3">Loyalty Program</span>
+                        <i class="fas fa-star text-warning"></i>
+                        <span class="ms-2">View Points</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="index.html">
+                <img src="image/medlogo.avif" alt="HealthWise Logo" width="100" height="100" class="me-2">
+                
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="weight-loss.html">Medical Weight Loss</a></li>
+                            <li><a class="dropdown-item" href="body-contouring.html">Body Contouring</a></li>
+                            <li><a class="dropdown-item" href="botox.html">Botox & Fillers</a></li>
+                            <li><a class="dropdown-item" href="iv-therapy.html">IV Therapy</a></li>
+                            <li><a class="dropdown-item" href="hormone-therapy.html">Hormone Therapy</a></li>
+                            <li><a class="dropdown-item" href="telehealth.html">Telehealth</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="virtual-consultant.html">Virtual Consultant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="finance.html">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Booking</a>
+                    </li>
+                </ul>
+                <button class="btn btn-success ms-3" onclick="window.location.href='booking.html'">
+                    Book Free Consultation
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-success text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold mb-3">Health & Wellness Blog</h1>
+                    <p class="lead">Expert insights on weight loss, wellness, and healthy living</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <div class="featured-article card border-0 shadow-lg">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="image/hpis.PNG" loading="lazy" alt="Featured Article" class="img-fluid rounded-start h-100 object-cover">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body p-5">
+                                    <span class="badge bg-success mb-3">Featured Article</span>
+                                    <h2 class="card-title fw-bold mb-3">Understanding GLP-1 Medications for Weight Loss</h2>
+                                    <p class="card-text mb-4">
+                                        Discover how GLP-1 medications like Semaglutide and Tirzepatide are revolutionizing 
+                                        medical weight loss. Learn about their benefits, how they work, and what to expect 
+                                        during treatment.
+                                    </p>
+                                    <div class="blog-meta mb-3">
+                                        <span class="text-muted">
+                                            <i class="fas fa-calendar me-2"></i>January 15, 2024
+                                        </span>
+                                        <span class="text-muted ms-3">
+                                            <i class="fas fa-clock me-2"></i>5 min read
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-success">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Articles -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold text-success mb-4">Latest Articles</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card card h-100 border-0 shadow">
+                        <img src="image/bopic.PNG" loading="lazy" alt="Blog Post" class="card-img-top">
+                        <div class="card-body">
+                            <span class="badge bg-outline-success mb-2">Weight Loss</span>
+                            <h5 class="card-title fw-bold">10 Tips for Successful Medical Weight Loss</h5>
+                            <p class="card-text">Essential strategies to maximize your weight loss results and maintain long-term success.</p>
+                            <div class="blog-meta mb-3">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-1"></i>Jan 10, 2024
+                                    <span class="ms-2">
+                                        <i class="fas fa-clock me-1"></i>4 min read
+                                    </span>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-success">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card card h-100 border-0 shadow">
+                        <img src="image/Capture.PNG" loading="lazy" alt="Blog Post" class="card-img-top">
+                        <div class="card-body">
+                            <span class="badge bg-outline-success mb-2">Nutrition</span>
+                            <h5 class="card-title fw-bold">Healthy Meal Planning for Weight Loss</h5>
+                            <p class="card-text">Learn how to create nutritious, satisfying meals that support your weight loss goals.</p>
+                            <div class="blog-meta mb-3">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-1"></i>Jan 8, 2024
+                                    <span class="ms-2">
+                                        <i class="fas fa-clock me-1"></i>6 min read
+                                    </span>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-success">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card card h-100 border-0 shadow">
+                        <img src="image/thery.PNG" loading="lazy" alt="Blog Post" class="card-img-top">
+                        <div class="card-body">
+                            <span class="badge bg-outline-success mb-2">Wellness</span>
+                            <h5 class="card-title fw-bold">The Benefits of IV Therapy for Energy</h5>
+                            <p class="card-text">Discover how IV vitamin therapy can boost your energy levels and support overall wellness.</p>
+                            <div class="blog-meta mb-3">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-1"></i>Jan 5, 2024
+                                    <span class="ms-2">
+                                        <i class="fas fa-clock me-1"></i>3 min read
+                                    </span>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-success">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card card h-100 border-0 shadow">
+                        <img src="image/hpix.PNG" loading="lazy" alt="Blog Post" class="card-img-top">
+                        <div class="card-body">
+                            <span class="badge bg-outline-success mb-2">Hormones</span>
+                            <h5 class="card-title fw-bold">Understanding Hormone Imbalances</h5>
+                            <p class="card-text">Learn about common hormone imbalances and how hormone therapy can help restore balance.</p>
+                            <div class="blog-meta mb-3">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-1"></i>Jan 3, 2024
+                                    <span class="ms-2">
+                                        <i class="fas fa-clock me-1"></i>7 min read
+                                    </span>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-success">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card card h-100 border-0 shadow">
+                        <img src="image/blac.jpg" loading="lazy" alt="Blog Post" class="card-img-top">
+                        <div class="card-body">
+                            <span class="badge bg-outline-success mb-2">Exercise</span>
+                            <h5 class="card-title fw-bold">Exercise Tips for Weight Loss Success</h5>
+                            <p class="card-text">Effective workout strategies to complement your medical weight loss program.</p>
+                            <div class="blog-meta mb-3">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-1"></i>Dec 30, 2023
+                                    <span class="ms-2">
+                                        <i class="fas fa-clock me-1"></i>5 min read
+                                    </span>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-success">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card card h-100 border-0 shadow">
+                        <img src="image/borpic.PNG" loading="lazy" alt="Blog Post" class="card-img-top">
+                        <div class="card-body">
+                            <span class="badge bg-outline-success mb-2">Beauty</span>
+                            <h5 class="card-title fw-bold">Botox vs. Fillers: Which is Right for You?</h5>
+                            <p class="card-text">Compare cosmetic treatments to determine the best option for your aesthetic goals.</p>
+                            <div class="blog-meta mb-3">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-1"></i>Dec 28, 2023
+                                    <span class="ms-2">
+                                        <i class="fas fa-clock me-1"></i>4 min read
+                                    </span>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-success">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="py-5 bg-success text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-6 fw-bold mb-4">Stay Updated</h2>
+                    <p class="lead mb-4">
+                        Subscribe to our newsletter for the latest health tips, weight loss insights, and wellness advice.
+                    </p>
+                    <form class="row g-3 justify-content-center">
+                        <div class="col-md-6">
+                            <input type="email" class="form-control form-control-lg" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-light btn-lg">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3 text-success">
+                        <img src="image/medlogo.avif"  alt="HealthWise Logo" width="30" height="30" class="me-2">
+                        HealthWise Medical
+                    </h5>
+                    <p class="mb-3">
+                        Your trusted partner in medical weight loss and wellness. Personalized care for lasting results.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Areas</h5>
+                    <div class="Areas">
+                        <p class="mb-1">Douglasville, GA</p>
+                        <p class="mb-1">Hiram, GA</p>
+                        <p class="mb-1">Powder Springs, GA</p>
+                        <p class="mb-1">Dallas, GA</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Contact Information</h5>
+                    <div class="contact-info">
+                        <p class="mb-2">
+                            <i class="fas fa-phone me-2"></i>
+                            +1 (770) 575-0768
+                        </p>
+                        <p class="mb-2">
+                            <i class="fas fa-envelope me-2"></i>
+                            info@healthwisemeds.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                             105 brownsville rd ste 3 powdersprings 30127 ga
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Office Hours</h5>
+                    <div class="office-hours">
+                        <p class="mb-1">Monday to Friday: 9:00 am - 5:00 pm</p>
+                        <p class="mb-1">Saturday: Closed</p>
+                        <p class="mb-1">Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 HealthWise Medical. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

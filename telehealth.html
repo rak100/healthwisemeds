@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telehealth - HealthWise Medical</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-top bg-success text-white py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-phone me-2"></i>
+                        <span>+1 (770) 575-0768</span>
+                        <span class="mx-3">|</span>
+                        <i class="fas fa-envelope me-2"></i>
+                        <span>info@healthwisemeds.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <span class="me-3">Loyalty Program</span>
+                        <i class="fas fa-star text-warning"></i>
+                        <span class="ms-2">View Points</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+           <a class="navbar-brand fw-bold text-success" href="index.html">
+                <img src="image/medlogo.avif" alt="HealthWise Logo" width="100" height="100" class="me-2">
+                
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="weight-loss.html">Medical Weight Loss</a></li>
+                            <li><a class="dropdown-item" href="body-contouring.html">Body Contouring</a></li>
+                            <li><a class="dropdown-item" href="botox.html">Botox & Fillers</a></li>
+                            <li><a class="dropdown-item" href="iv-therapy.html">IV Therapy</a></li>
+                            <li><a class="dropdown-item" href="hormone-therapy.html">Hormone Therapy</a></li>
+                            <li><a class="dropdown-item active" href="telehealth.html">Telehealth</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="virtual-consultant.html">Virtual Consultant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="finance.html">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Booking</a>
+                    </li>
+                </ul>
+                <button class="btn btn-success ms-3" onclick="window.location.href='booking.html'">
+                    Book Free Consultation
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-success text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold mb-3">Telehealth Services</h1>
+                    <p class="lead">Convenient virtual consultations from the comfort of your home</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Telehealth Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6">
+                    <h2 class="display-6 fw-bold text-success mb-4">What is Telehealth?</h2>
+                    <p class="lead mb-4">
+                        Telehealth allows you to receive quality medical care and consultations through secure 
+                        video calls, making healthcare more accessible and convenient than ever.
+                    </p>
+                    <p class="mb-4">
+                        Our telehealth services provide the same level of professional medical care you would 
+                        receive in our office, but from the comfort and privacy of your own home. This is 
+                        particularly beneficial for follow-up appointments, medication management, and ongoing support.
+                    </p>
+                    <p class="mb-4">
+                        Perfect for busy schedules, those with mobility issues, or anyone who prefers the 
+                        convenience of virtual healthcare without compromising on quality.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="image/telehealth.jpg" loading="lazy" alt="Telehealth Consultation" class="img-fluid rounded-3 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Telehealth Services -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold text-success mb-4">
+                        Our Telehealth Services
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="telehealth-card card h-100 text-center border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-weight text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold">Weight Loss Consultations</h4>
+                            <p class="card-text">Virtual appointments for weight loss program management and support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="telehealth-card card h-100 text-center border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-pills text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold">Medication Management</h4>
+                            <p class="card-text">Follow-up appointments for prescription monitoring and adjustments</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="telehealth-card card h-100 text-center border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-chart-line text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold">Progress Reviews</h4>
+                            <p class="card-text">Regular check-ins to track your progress and adjust treatment plans</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="telehealth-card card h-100 text-center border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-dna text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold">Hormone Therapy Follow-ups</h4>
+                            <p class="card-text">Virtual monitoring of hormone replacement therapy progress</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="telehealth-card card h-100 text-center border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-comments text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold">Nutrition Counseling</h4>
+                            <p class="card-text">Virtual sessions with our nutrition specialists for dietary guidance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="telehealth-card card h-100 text-center border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-question-circle text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold">General Consultations</h4>
+                            <p class="card-text">Initial consultations and general health discussions via video call</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold text-success mb-4">
+                        How Telehealth Works
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="process-step text-center">
+                        <div class="step-number bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3">
+                            <span class="fs-4 fw-bold">1</span>
+                        </div>
+                        <h4 class="fw-bold mb-3">Schedule Your Appointment</h4>
+                        <p>
+                            Book your telehealth appointment online or by phone at your preferred time.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="process-step text-center">
+                        <div class="step-number bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3">
+                            <span class="fs-4 fw-bold">2</span>
+                        </div>
+                        <h4 class="fw-bold mb-3">Join the Video Call</h4>
+                        <p>
+                            Use our secure platform to connect with your healthcare provider via video call.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="process-step text-center">
+                        <div class="step-number bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3">
+                            <span class="fs-4 fw-bold">3</span>
+                        </div>
+                        <h4 class="fw-bold mb-3">Receive Care & Follow-up</h4>
+                        <p>
+                            Get personalized medical advice and receive follow-up instructions as needed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-6 fw-bold text-success text-center mb-5">
+                        Benefits of Telehealth
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="benefit-item d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                <span>Convenient from home</span>
+                            </div>
+                            <div class="benefit-item d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                <span>No travel time required</span>
+                            </div>
+                            <div class="benefit-item d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                <span>Flexible scheduling options</span>
+                            </div>
+                            <div class="benefit-item d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                <span>Secure and private</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="benefit-item d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                <span>Same quality of care</span>
+                            </div>
+                            <div class="benefit-item d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                <span>Reduced exposure to illness</span>
+                            </div>
+                            <div class="benefit-item d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                <span>Easy access to specialists</span>
+                            </div>
+                            <div class="benefit-item d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                <span>Cost-effective healthcare</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Requirements -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-6 fw-bold text-success text-center mb-5">
+                        What You Need for Telehealth
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="fas fa-laptop text-success me-3 mt-1 fs-4"></i>
+                                <div>
+                                    <h5 class="fw-bold mb-2">Device with Camera</h5>
+                                    <p>Computer, tablet, or smartphone with a working camera and microphone.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="fas fa-wifi text-success me-3 mt-1 fs-4"></i>
+                                <div>
+                                    <h5 class="fw-bold mb-2">Stable Internet</h5>
+                                    <p>Reliable internet connection for clear video and audio communication.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="fas fa-lock text-success me-3 mt-1 fs-4"></i>
+                                <div>
+                                    <h5 class="fw-bold mb-2">Private Space</h5>
+                                    <p>Quiet, private location where you can speak freely with your provider.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="fas fa-clipboard text-success me-3 mt-1 fs-4"></i>
+                                <div>
+                                    <h5 class="fw-bold mb-2">Medical Information</h5>
+                                    <p>Have your medical history and current medications ready for reference.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-success text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-6 fw-bold mb-4">
+                        Ready to Try Telehealth?
+                    </h2>
+                    <p class="lead mb-4">
+                        Schedule your virtual consultation today and experience convenient healthcare from home.
+                    </p>
+                    <button class="btn btn-light btn-lg me-3" onclick="window.location.href='booking.html'">
+                        <i class="fas fa-video me-2"></i>
+                        Book Virtual Consultation
+                    </button>
+                    <button class="btn btn-outline-light btn-lg" onclick="window.location.href='tel:+17705750768'">
+                        <i class="fas fa-phone me-2"></i>
+                        Call Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+      <footer id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3 text-success">
+                        <img src="image/medlogo.avif" alt="HealthWise Logo" width="30" height="30" class="me-2">
+                        HealthWise Medical
+                    </h5>
+                    <p class="mb-3">
+                        Your trusted partner in medical weight loss and wellness. Personalized care for lasting results.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Areas</h5>
+                    <div class="Areas">
+                        <p class="mb-1">Douglasville, GA</p>
+                        <p class="mb-1">Hiram, GA</p>
+                        <p class="mb-1">Powder Springs, GA</p>
+                        <p class="mb-1">Dallas, GA</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Contact Information</h5>
+                    <div class="contact-info">
+                        <p class="mb-2">
+                            <i class="fas fa-phone me-2"></i>
+                            +1 (770) 575-0768
+                        </p>
+                        <p class="mb-2">
+                            <i class="fas fa-envelope me-2"></i>
+                            info@healthwisemeds.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                             105 brownsville rd ste 3 powdersprings 30127 ga
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Office Hours</h5>
+                    <div class="office-hours">
+                        <p class="mb-1">Monday to Friday: 9:00 am - 5:00 pm</p>
+                        <p class="mb-1">Saturday: Closed</p>
+                        <p class="mb-1">Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 HealthWise Medical. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

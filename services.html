@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - HealthWise Medical</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-top bg-success text-white py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-phone me-2"></i>
+                        <span>+1 (770) 575-0768</span>
+                        <span class="mx-3">|</span>
+                        <i class="fas fa-envelope me-2"></i>
+                        <span>info@healthwisemeds.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <span class="me-3">Loyalty Program</span>
+                        <i class="fas fa-star text-warning"></i>
+                        <span class="ms-2">View Points</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="index.html">
+                <img src="image/medlogo.avif" alt="HealthWise Logo" width="100" height="100" class="me-2">
+                
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="weight-loss.html">Medical Weight Loss</a></li>
+                            <li><a class="dropdown-item" href="body-contouring.html">Body Contouring</a></li>
+                            <li><a class="dropdown-item" href="botox.html">Botox & Fillers</a></li>
+                            <li><a class="dropdown-item" href="iv-therapy.html">IV Therapy</a></li>
+                            <li><a class="dropdown-item" href="hormone-therapy.html">Hormone Therapy</a></li>
+                            <li><a class="dropdown-item" href="telehealth.html">Telehealth</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item active" href="services.html">All Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="virtual-consultant.html">Virtual Consultant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="finance.html">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Booking</a>
+                    </li>
+                </ul>
+                <button class="btn btn-success ms-3" onclick="window.location.href='booking.html'">
+                    Book Free Consultation
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Header -->
+    <section class="page-header bg-success text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold mb-3">Our Services</h1>
+                    <p class="lead">Comprehensive medical weight loss and wellness solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card card h-100 border-0 shadow">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-weight text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold mb-3">Medical Weight Loss</h4>
+                            <p class="card-text mb-4">
+                                Comprehensive, medically supervised weight loss programs using FDA-approved medications 
+                                and personalized treatment plans.
+                            </p>
+                            <a href="weight-loss.html" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card card h-100 border-0 shadow">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-user-md text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold mb-3">Body Contouring</h4>
+                            <p class="card-text mb-4">
+                                Non-invasive body contouring treatments to help sculpt and tone your body 
+                                for enhanced results.
+                            </p>
+                            <a href="body-contouring.html" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card card h-100 border-0 shadow">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-syringe text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold mb-3">Botox & Fillers</h4>
+                            <p class="card-text mb-4">
+                                Professional cosmetic treatments to reduce wrinkles and enhance your natural beauty 
+                                with expert care.
+                            </p>
+                            <a href="botox.html" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card card h-100 border-0 shadow">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-tint text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold mb-3">IV Therapy</h4>
+                            <p class="card-text mb-4">
+                                Customized IV vitamin and nutrient therapies to boost energy, immunity, 
+                                and overall wellness.
+                            </p>
+                            <a href="iv-therapy.html" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card card h-100 border-0 shadow">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-dna text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold mb-3">Hormone Therapy</h4>
+                            <p class="card-text mb-4">
+                                Hormone replacement therapy and optimization to restore balance 
+                                and improve quality of life.
+                            </p>
+                            <a href="hormone-therapy.html" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card card h-100 border-0 shadow">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-laptop-medical text-success fs-1 mb-3"></i>
+                            <h4 class="card-title fw-bold mb-3">Telehealth</h4>
+                            <p class="card-text mb-4">
+                                Convenient virtual consultations and follow-ups from the comfort 
+                                of your home.
+                            </p>
+                            <a href="telehealth.html" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-success text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-6 fw-bold mb-4">
+                        Ready to Transform Your Health?
+                    </h2>
+                    <p class="lead mb-4">
+                        Schedule a free consultation to learn which services are right for you.
+                    </p>
+                    <button class="btn btn-light btn-lg me-3" onclick="window.location.href='booking.html'">
+                        <i class="fas fa-calendar-alt me-2"></i>
+                        Book Free Consultation
+                    </button>
+                    <button class="btn btn-outline-light btn-lg" onclick="window.location.href='tel:+17705750768'">
+                        <i class="fas fa-phone me-2"></i>
+                        Call Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+       <footer id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3 text-success">
+                        <img src="image/medlogo.avif" alt="HealthWise Logo" width="30" height="30" class="me-2">
+                        HealthWise Medical
+                    </h5>
+                    <p class="mb-3">
+                        Your trusted partner in medical weight loss and wellness. Personalized care for lasting results.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Areas</h5>
+                    <div class="Areas">
+                        <p class="mb-1">Douglasville, GA</p>
+                        <p class="mb-1">Hiram, GA</p>
+                        <p class="mb-1">Powder Springs, GA</p>
+                        <p class="mb-1">Dallas, GA</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Contact Information</h5>
+                    <div class="contact-info">
+                        <p class="mb-2">
+                            <i class="fas fa-phone me-2"></i>
+                            +1 (770) 575-0768
+                        </p>
+                        <p class="mb-2">
+                            <i class="fas fa-envelope me-2"></i>
+                            info@healthwisemeds.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                             105 brownsville rd ste 3 powdersprings 30127 ga
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Office Hours</h5>
+                    <div class="office-hours">
+                        <p class="mb-1">Monday to Friday: 9:00 am - 5:00 pm</p>
+                        <p class="mb-1">Saturday: Closed</p>
+                        <p class="mb-1">Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 HealthWise Medical. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
