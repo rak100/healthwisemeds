@@ -275,9 +275,19 @@ document.addEventListener("click", (event) => {
 })
 
 // Virtual consultant functionality
+// function startVirtualConsultation() {
+//   alert("Virtual consultation feature will be available soon! Please book a regular consultation for now.")
+//   // window.location.href = "https://healthwisemeds.myaestheticrecord.com/online-booking"
+//   window.open("https://healthwisemeds.myaestheticrecord.com/online-booking", "_blank")
+// }
 function startVirtualConsultation() {
-  alert("Virtual consultation feature will be available soon! Please book a regular consultation for now.")
-  window.location.href = "booking.html"
+  const newTab = window.open("https://healthwisemeds.myaestheticrecord.com/online-booking", "_blank");
+
+  if (!newTab || newTab.closed || typeof newTab.closed === 'undefined') {
+    alert("Popup blocked! Please allow popups for this site to book your consultation.");
+  } else {
+    alert("Virtual consultation feature will be available soon! Please book a regular consultation in the new tab.");
+  }
 }
 
 // Finance calculator
