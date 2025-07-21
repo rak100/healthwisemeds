@@ -22,6 +22,9 @@
     />
 
     <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet"
+        href="https://firebasestorage.googleapis.com/v0/b/qualiphy-web-d918b.appspot.com/o/style-v4.css?alt=media&token=34735782-16e8-4a2f-9eaa-426d65af48b2" />
   </head>
   <body>
     <!-- Header -->
@@ -357,13 +360,12 @@
                   health assessment to provide personalized treatment
                   recommendations.
                 </p>
-                <button
-                  class="btn btn-success btn-lg mb-3"
-                  onclick="startVirtualConsultation()"
-                >
-                  <i class="fas fa-play me-2"></i>
-                  Start Virtual Consultation
-                </button>
+               <div id="loadFormButton"
+                                style="width: 150px; height: 40px; cursor: pointer; background-color: #cfc9ff; color: #0a005b; border: none; border-radius: 5px; font-weight: 600; display: flex; justify-content: center; align-items: center; margin: 20px auto;"
+                                onmouseover="this.style.backgroundColor='#8058fa'; this.style.color='white'"
+                                onmouseout="this.style.backgroundColor='#CFC9FF'; this.style.color='#0A005B'">
+                                Exam Invite
+                            </div>
                 <p class="text-muted small">
                   <i class="fas fa-lock me-1"></i>
                   Your information is completely secure and confidential
@@ -540,5 +542,45 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+
+
+      <script>
+        window.onload = function () {
+
+            const momentScript = document.createElement("script");
+            momentScript.src = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js";
+            document.body.appendChild(momentScript);
+
+            momentScript.onload = function () {
+
+                const qualiphyScript = document.createElement("script");
+                qualiphyScript.id = "qualiphy-script";
+                qualiphyScript.type = "text/javascript";
+                qualiphyScript.src = "https://www.app.qualiphy.me/scripts/quidget_disclosure.js";
+
+                qualiphyScript.setAttribute("data-formsrc", "https://www.app.qualiphy.me/qualiphy-widget?clinic=Healthwise Medical&clinicId=3614&first_name=&last_name=&email=&phone_number=&gender=&exams=2095,2097,1618,1620,1623,1148,1693&tele_state_required=true&token=6d743e8d6b79e315f7bf96743d12428ada08fef7");
+                qualiphyScript.setAttribute("data-timezone", "-4");
+                qualiphyScript.setAttribute("data-examhours", '[{"SUN":{"FROM":"00:00","TO":"23:59","isDaySelected":false}},{"MON":{"FROM":"09:00","TO":"18:00","isDaySelected":true}},{"TUE":{"FROM":"09:00","TO":"18:00","isDaySelected":true}},{"WED":{"FROM":"09:00","TO":"18:00","isDaySelected":true}},{"THU":{"FROM":"09:00","TO":"18:00","isDaySelected":true}},{"FRI":{"FROM":"09:00","TO":"18:00","isDaySelected":true}},{"SAT":{"FROM":"00:00","TO":"23:59","isDaySelected":false}}]');
+                document.body.appendChild(qualiphyScript);
+
+
+                qualiphyScript.onload = function () {
+                    const button = document.getElementById("loadFormButton");
+                    if (button && typeof showDisclosureModal === "function") {
+                        button.onclick = showDisclosureModal;
+                    } else {
+
+                        const interval = setInterval(() => {
+                            if (typeof showDisclosureModal === "function") {
+                                button.onclick = showDisclosureModal;
+                                clearInterval(interval);
+                            }
+                        }, 300);
+                    }
+                };
+            };
+        };
+    </script>
+
   </body>
 </html>
